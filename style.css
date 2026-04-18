@@ -1,0 +1,215 @@
+/*  RESET */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* BASE */
+body {
+  font-family: Arial;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+/* TITOLI */
+h1 {
+  font-size: 40px;
+}
+
+/* LINK */
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* HOME */
+.home-body {
+  background-image: url('gif/spazio.gif');
+}
+
+.home-link {
+  display: block;
+  margin: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.home-link:hover {
+  color: #aaa;
+  letter-spacing: 2px;
+}
+
+/* CALM */
+.calm-body {
+  background-image: url('gif/stelle.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #dce6f2;
+}
+
+.calm-circle {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(143, 183, 255, 0.6);
+  border-radius: 50%;
+  margin: 50px auto;
+  animation: breathe 12s infinite ease-in-out;
+  box-shadow: 0 0 30px #8fb7ff;
+}
+
+@keyframes breathe {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.6); }
+  100% { transform: scale(1); }
+}
+
+.calm-text { font-size: 22px; }
+.calm-hint { font-size: 14px; opacity: 0.7; }
+
+.calm-body a {
+  color: #8fb7ff;
+  display: block;
+  margin-top: 40px;
+}
+
+.calm-body a:hover {
+  opacity: 0.7;
+}
+
+/* SAD */
+.sad-body {
+  background-image: url('gif/sad.gif');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  color: #dce6f2;
+}
+
+.sad-text { font-size: 22px; }
+.sad-hint { font-size: 14px; opacity: 0.7; }
+
+.sad-home {
+  display: block;
+  margin-top: 50px;
+  color: #8fb7ff;
+}
+
+.sad-button {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 25px;
+  border: 2px solid #8fb7ff;
+  color: #8fb7ff;
+  border-radius: 30px;
+}
+
+.sad-button:hover {
+  background-color: #8fb7ff;
+  color: white;
+}
+
+/* HUG */
+.hug-body {
+  background-image: url('gif/spazio.gif');
+  color: #dce6f2;
+}
+
+.hug-image img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #8fb7ff;
+}
+
+.hug-text {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.hug-hint {
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.hug-back {
+  display: block;
+  margin-top: 40px;
+  color: #8fb7ff;
+}
+
+.hug-back:hover {
+  opacity: 0.7;
+}
+
+/* HAPPY */
+.happy-body {
+  background-image: url('gif/spazio.gif');
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.happy-body ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+.happy-body a {
+  color: white;
+}
+
+.happy-body a:hover {
+  color: gray;
+}
+
+.happy-body img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #8fb7ff;
+}
+
+/* ANGRY */
+.angry-body {
+  background-image: url('gif/thunder.gif');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.angry-body a {
+  color: white;
+}
+
+.angry-body a:hover {
+  color: gray;
+}
+
+.angry-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.angry-button:hover {
+  background: white;
+  color: black;
+}
+
+.image img {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px red;
+}
